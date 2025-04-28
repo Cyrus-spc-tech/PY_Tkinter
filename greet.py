@@ -23,6 +23,11 @@ entry.pack(pady=20)
 button = tk.Button(window, text="Greet Me!", command=greet)
 button.pack(pady=10)
 
+#image 
+image = tk.PhotoImage(file="ing.jpg")  
+img_label = tk.Label(window, image=image)
+img_label.pack(pady=20)
+
 # Start the GUI
 window.mainloop()
 
